@@ -24,8 +24,6 @@ function foodFilter(event) {
         if (targetId === "Alle"){
             rezept.style.display = "block";
         } else if (rezept.dataset.kathegorie !== targetId) {
-            //console.log(rezept.dataset.kathegorie);
-            //console.log(targetId);
             rezept.style.display = "none";
         } else {
             rezept.style.display = "block";
